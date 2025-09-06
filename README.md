@@ -21,33 +21,47 @@
 - **Traffic Analysis** - Monitor bandwidth usage for unusual patterns
 
 ### ⚡ Quick Start
-```bash
+
 # Clone the repository
+```bash
 git clone https://github.com/yourusername/wifi-helper.git
+```
 
 # Navigate to directory
+```bash
 cd wifi-helper
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # Run the tool
+```bash
 python3 wifi_helper.py
 ```
 
 ### 📦 Installation
-```bash
+
 # Ensure Python 3.8+ is installed
+```bash
 python3 --version
+```
 
 # Install system dependencies
+```bash
 sudo apt update
 sudo apt install python3-pip python3-venv wireless-tools
+```
 
-#Installation Methods
-Method 1: Direct install
+# Installation Methods
+# Method 1: Direct install
+```bash
 pip install git+https://github.com/yourusername/wifi-helper.git
-Method 2: From source
+```
+# Method 2: From source
+```bash
 git clone https://github.com/yourusername/wifi-helper.git
 cd wifi-helper
 python3 -m venv venv
@@ -57,23 +71,35 @@ pip install -r requirements.txt
 
 ### 🎯 Usage
 ### Basic Usage
-```bash
+
 # Start the interactive menu
+```bash
 python3 wifi_helper.py
+```
 
 # Or run specific modules
+```bash
 python3 wifi_helper.py --scan
 python3 wifi_helper.py --monitor
-Command Line Options
+```
+### Command Line Options
 
 # Display help
+```bash
 python3 wifi_helper.py --help
+```
 
 # Network information
+```bash
 python3 wifi_helper.py --info
+```
 
 # Security scan
+```bash
 python3 wifi_helper.py --security-scan
+```
 
 # Continuous monitoring
+```bash
 python3 wifi_helper.py --monitor --timeout 300
+```
